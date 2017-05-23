@@ -1,0 +1,105 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} 88Keys {% endblock %}
+
+{% block Body %}
+
+        <section class="main-search-field main-search-field-two at-over-layer-black">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-md-12">
+                                        <div class="at-col-default-mar clearfix">
+                                                <h1 id="text-animation" class="morphext"><span class="animated fadeInDown">we are very helpful</span></h1>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="at-search-box">
+                                <div class="row">
+                                        <div class="col-lg-3 col-md-6">
+                                                <div class="at-col-default-mar">
+                                                        <select>
+                                                                <option value="0" selected="">Location</option>
+                                                                <option value="1">Alabama</option>
+                                                                <option value="2">Alaska</option>
+                                                                <option value="3">California</option>
+                                                                <option value="4">Colorado</option>
+                                                                <option value="5">Delaware</option>
+                                                                <option value="6">District of Columbia</option>
+                                                        </select>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                                <div class="at-col-default-mar">
+                                                        <select class="div-toggle" data-target=".my-info-1">
+                                                                <option value="0" data-show=".acitveon" selected="">Property Status</option>
+                                                                <option value="1" data-show=".sale">For Sale</option>
+                                                                <option value="2" data-show=".rent">For Rent</option>
+                                                        </select>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                                <div class="at-col-default-mar">
+                                                        <input class="at-input" type="text" name="min-area" placeholder="Squre Fit Min">
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                                <div class="at-col-default-mar">
+                                                        <input class="at-input" type="text" name="max-area" placeholder="Squre Fit Max">
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-lg-3 col-md-6">
+                                                <div class="at-col-default-mar">
+                                                        <select>
+                                                                <option value="0" selected="">Bedroom</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5">5</option>
+                                                        </select>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                                <div class="at-col-default-mar">
+                                                        <select>
+                                                                <option value="0" selected="">Bathroom</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5">5</option>
+                                                        </select>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                                <div class="at-col-default-mar">
+                                                        <div class="irs-pricing-range">
+                                                                <div class="my-info-1">
+                                                                        <h4 class="hide">At first select Property Status</h4>
+                                                                        <div class="acitveon sale">
+                                                                                <label>Price : </label>
+                                                                                <input type="text" class="amount at-input-price" readonly="">
+                                                                                <div class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"><div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 10%; width: 50%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 10%;"></span><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 60%;"></span></div>
+                                                                        </div>
+                                                                        <div class="rent hide">
+                                                                                <label>Price : </label>
+                                                                                <input type="text" class="amount-two at-input-price" readonly="">
+                                                                                <div class="slider-range-two ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"><div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 10%; width: 30%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 10%;"></span><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 40%;"></span></div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                                <div class="at-col-default-mar">
+                                                        <button class="btn btn-default hvr-bounce-to-right" type="submit">Search</button>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+{% endblock %}
